@@ -1,5 +1,5 @@
 
-## Description
+## Descrição
 
 CRUD feito em Nest e Typescript com MySQL e bancos relacionados utilizando Prisma como ORM
 
