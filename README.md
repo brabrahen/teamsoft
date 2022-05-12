@@ -33,7 +33,9 @@ $ npm run start
 <div>
   <img alt="user-dto" src="https://i.imgur.com/uBfm8Wj.png">
 </div>
+
 ###
+
 <div>
   <img alt="prisma-schema" src="https://i.imgur.com/Fi7EVqs.png">
 </div>
@@ -44,6 +46,7 @@ $ npm run start
 <div>
   <img alt="service" src="https://i.imgur.com/QAp6IMS.png">
 </div>
+
 ###
 
 - Controller: recebe os parâmetros do Service e nomeia as rotas
@@ -73,7 +76,9 @@ $ npm run start
 <div>
   <img alt="update" src="https://i.imgur.com/yvEVlYn.png">
 </div>
+  
 ####
+  
 <div>
   <img alt="update-get" src="https://i.imgur.com/rfJcFtC.png">
 </div>
@@ -83,7 +88,9 @@ $ npm run start
 <div>
   <img alt="delete" src="https://i.imgur.com/i1hkhQn.png">
 </div>
+  
 ####
+  
 <div>
   <img alt="delete-get" src="https://i.imgur.com/KVVNebl.png">
 </div>
@@ -93,4 +100,4 @@ $ npm run start
 --------------
 ### 
 Espero que tenha superado as expectativas! Agradeço desde já a oportunidade!!
-_________________________________________________🐱‍👤🐱‍👤
+🐱‍👤🐱‍👤
