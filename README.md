@@ -1,73 +1,96 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
-
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+CRUD feito em Nest e Typescript com MySQL e bancos relacionados utilizando Prisma como ORM
 
-## Installation
+## Instalação
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+## Iniciando o código
 
 ```bash
 # development
 $ npm run start
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
 
-## Test
+--------------------
 
-```bash
-# unit tests
-$ npm run test
+## O esquema de pastas
+- O esquema foi estruturado de maniera padrão seperando entre Endereço e Usuário/Proprietario
 
-# e2e tests
-$ npm run test:e2e
+<div>
+  <img alt="src" src="https://i.imgur.com/wRVCNC2.png">
+</div>
 
-# test coverage
-$ npm run test:cov
-```
+####
+#### DTO's e Prisma
+- Os DTO's e o Prisma Schema estão ali para padronizar e tratar a entrada de dados. O tratamento de dados nos DTO'sestá sendo feito com *Class validator*
 
-## Support
+<div>
+  <img alt="user-dto" src="https://i.imgur.com/uBfm8Wj.png">
+</div>
+###
+<div>
+  <img alt="prisma-schema" src="https://i.imgur.com/Fi7EVqs.png">
+</div>
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+#### Services e Controllers
+- Sevice: "diz" como tudo vai funcionar nas rotas de criação, deleção, atualização e leitura
 
-## Stay in touch
+<div>
+  <img alt="service" src="https://i.imgur.com/QAp6IMS.png">
+</div>
+###
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Controller: recebe os parâmetros do Service e nomeia as rotas
 
-## License
+<div>
+  <img alt="controller" src="https://i.imgur.com/4gwefL9.png">
+</div>
 
-Nest is [MIT licensed](LICENSE).
+---------------------------------
+### Testes
+- Realizei o teste de rotas através do Insomnia
+
+#### Post
+
+<div>
+  <img alt="post" src="https://i.imgur.com/Q0lFjNK.png">
+<div>
+
+#### Get
+
+<div>
+  <img alt="get" src="https://i.imgur.com/ouLGc5Z.png">
+</div>
+
+#### Update
+
+<div>
+  <img alt="update" src="https://i.imgur.com/yvEVlYn.png">
+</div>
+####
+<div>
+  <img alt="update-get" src="https://i.imgur.com/rfJcFtC.png">
+</div>
+
+#### Delete
+
+<div>
+  <img alt="delete" src="https://i.imgur.com/i1hkhQn.png">
+</div>
+####
+<div>
+  <img alt="delete-get" src="https://i.imgur.com/KVVNebl.png">
+</div>
+
+##
+
+--------------
+### 
+Espero que tenha superado as expectativas! Agradeço desde já a oportunidade!!
+_________________________________________________🐱‍👤🐱‍👤
